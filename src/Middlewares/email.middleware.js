@@ -5,8 +5,8 @@ export const EmailMiddleware = (req, res, next) => {
   const transport = nodemailer.createTransport({
     service: "Gmail",
     auth: {
-      user: "janager8860000281@gmail.com",
-      pass: "dbwr ipit wxov pfwp",
+      user: "janager8860000281@gmail.com", 
+      pass: " APP Password ",//can't put here because its public repo
     },
   });
 
