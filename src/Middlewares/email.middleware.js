@@ -6,7 +6,7 @@ export const EmailMiddleware = (req, res, next) => {
     service: "Gmail",
     auth: {
       user: "janager8860000281@gmail.com", 
-      pass: " APP Password ",//can't put here because its public repo
+      pass: "dbwr ipit wxov pfwp",
     },
   });
 
