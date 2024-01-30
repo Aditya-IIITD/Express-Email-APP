@@ -3,7 +3,7 @@
   "type": "module",
   "version": "0.0.1",
   "description": "A simple Node app that makes requests to Etsy’s Open API.",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
