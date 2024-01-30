@@ -5,13 +5,13 @@ export const EmailMiddleware = (req, res, next) => {
   const transport = nodemailer.createTransport({
     service: "Gmail",
     auth: {
-      user: "janager8860000281@gmail.com", 
-      pass: "dbwr ipit wxov pfwp",
+      user: "adityajanager@gmail.com", 
+      pass: "lzts eous hdje ngyj",
     },
   });
 
   const mailOptions = {
-    from: "janager8860000281@gmail.com",
+    from: "adityajanager@gmail.com",
     to: data.email,
     subject: "Subscription Confirmation",
     text: `Dear ${data.name}, Thanx for subscribing.`,
