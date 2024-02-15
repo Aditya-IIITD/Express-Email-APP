@@ -6,7 +6,7 @@ export const EmailMiddleware = (req, res, next) => {
     service: "Gmail",
     auth: {
       user: "adityajanager@gmail.com",
-      pass: process.env.EMAIL_PASS,
+      pass: "lzts eous hdje ngyj",
     },
   });
 
