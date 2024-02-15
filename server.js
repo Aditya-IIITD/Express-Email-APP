@@ -1,3 +1,5 @@
+import dotenv from "dotenv";
+dotenv.config();
 import express from "express";
 import path from "path";
 import FormController from "./src/Controller/form.controller.js";
@@ -18,6 +20,7 @@ server.get("/goback", formController.goBack);
 server.post("/", EmailMiddleware, formController.postForm);
 server.use(express.static("src/View"));
 
-server.listen(3000, () => {
+var port = process.env.PORT || 3000;
+server.listen(port, () => {
   console.log("Server is listening at 3000");
 });

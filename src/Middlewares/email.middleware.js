@@ -5,8 +5,8 @@ export const EmailMiddleware = (req, res, next) => {
   const transport = nodemailer.createTransport({
     service: "Gmail",
     auth: {
-      user: "adityajanager@gmail.com", 
-      pass: "lzts eous hdje ngyj",
+      user: "adityajanager@gmail.com",
+      pass: process.env.EMAIL_PASS,
     },
   });
 
