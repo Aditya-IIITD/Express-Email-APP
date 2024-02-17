@@ -12,7 +12,6 @@
     "ejs": "^3.1.9",
     "express": "4.x",
     "express-ejs-layouts": "^2.5.1",
-    "firebase": "^10.8.0",
     "hbs": "^4.1.2",
     "node-fetch": "^2.6.1",
     "nodemailer": "^6.9.8",
